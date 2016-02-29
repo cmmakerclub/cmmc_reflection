@@ -1,7 +1,0 @@
-hello:
-  path: '/say_hello'
-  defaults:
-    _title: 'Hello Title'
-    _controller: '\Drupal\hello\HelloController::content'
-  requirements:
-    _permission: 'access content'

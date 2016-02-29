@@ -1,0 +1,10 @@
+name: CMMC Reflection
+type: module
+package: Chiang Mai Maker Club
+description: CMMC Reflection module.
+dependencies:
+  - node
+core: 8.x
+version: '8.0.1'
+core: '8.x'
+project: cmmc_reflection

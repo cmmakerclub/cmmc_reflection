@@ -1,0 +1,7 @@
+hello:
+  path: '/cmmc_reflect'
+  defaults:
+    _title: 'CMMC Reflection'
+    _controller: '\Drupal\cmmc_reflection\CMMCReflectionController::content'
+  requirements:
+    _permission: 'access content'
