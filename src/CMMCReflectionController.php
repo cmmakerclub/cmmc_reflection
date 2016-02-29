@@ -51,12 +51,12 @@ class CMMCReflectionController extends ControllerBase {
           $response->setContent(json_encode(array('reason'=> CONTENT_TYPE_NOT_FOUND,  'result' => false)));
     }
 
-    if (isset($_GET['json'])) {
-      return true;
+    if (isset($_GET['nojson'])) {
+      return false;
     }
     else {
       dpm($response->getContent());
-      return false;
+      return true;
     }
 
   }
